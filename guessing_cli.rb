@@ -15,3 +15,4 @@ computer_number = rand(1..6)
   puts "The computer guessed #{computer_number.to_i}."
 end
 end
+end
