@@ -1,7 +1,7 @@
 
 def guessing_game 
   user_response = gets.chomp
-  
+  computer_number = rand(1..7)
 end
 
 
