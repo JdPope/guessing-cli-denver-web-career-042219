@@ -9,6 +9,7 @@ def guessing_game
   elsif user_response != computer_number
   puts "The computer guessed #{computer_number}."
 end
+end
 
 
 
