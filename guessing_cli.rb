@@ -1,6 +1,6 @@
 
 def guessing_game 
-  user_response = gets.chomp
+  user_response = gets.chomp.to_i
   computer_number = rand(1..7)
   if user_response == computer_number
     puts "You guessed the correct number!"
