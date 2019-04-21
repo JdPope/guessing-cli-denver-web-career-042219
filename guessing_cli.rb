@@ -2,6 +2,9 @@
 def guessing_game 
   user_response = gets.chomp
   computer_number = rand(1..7)
+  if user_response == computer_number
+    puts "You guessed the correct number!"
+    elsif 
 end
 
 
